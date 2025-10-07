@@ -52,7 +52,7 @@
   --text-light: #d1d5db;
   --bg-color: #111827;
   --bg-secondary: #1f2937;
-  --bg-tertiary: #374151;
+  --bg-tertiary: #5f6c81;
   --border-color: #4b5563;
   --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3), 0 2px 4px -1px rgba(0, 0, 0, 0.2);
 }
@@ -176,6 +176,7 @@ body[dir="ltr"] {
 .lang-toggle {
   background: var(--bg-secondary);
   border: 1px solid var(--border-color);
+  color: var(--text-color);
   border-radius: var(--radius-md);
   padding: var(--space-xs) var(--space-sm);
   cursor: pointer;
@@ -191,7 +192,7 @@ body[dir="ltr"] {
 /* Hero Section */
 .hero {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../images/banner.jpg") center/cover no-repeat;
+    url("../images/hero\ \(2\).jpg") center/cover no-repeat;
   color: white;
   padding: var(--space-2xl) 0;
   text-align: center;
