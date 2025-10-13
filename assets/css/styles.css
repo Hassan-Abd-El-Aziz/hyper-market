@@ -87,7 +87,10 @@ body[dir="ltr"] {
   margin: 0 auto;
   padding: 0 var(--space-md);
 }
-
+.container .about-section {
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
 /* Header */
 .header {
   background-color: var(--bg-color);
@@ -931,4 +934,15 @@ html {
     opacity: 1;
     transform: translateY(0);
   }
+}
+.contact-wrapper .contact-form-container {
+  padding-top: 25px;
+}
+
+.contact-form {
+  padding-top: 25px;
+}
+.contact-info {
+  padding-top: 25px;
+  line-height: 2.5rem;
 }
